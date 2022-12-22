@@ -1,6 +1,6 @@
 <?php
 
-namespace MikeMcLin\Passport;
+namespace Sim1Barreto\Passport;
 
 use Laravel\Passport\Bridge\RefreshTokenRepository;
 use Laravel\Passport\Bridge\UserRepository;

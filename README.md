@@ -9,7 +9,7 @@ Install with composer...  `composer require sim1barreto/passport-custom-request-
 
 ## Setup
 
-* Add `MikeMcLin\Passport\CustomRequestGrantProvider` to your list of providers **after** `Laravel\Passport\PassportServiceProvider`.
+* Add `Sim1Barreto\Passport\CustomRequestGrantProvider` to your list of providers **after** `Laravel\Passport\PassportServiceProvider`.
 * Add `byPassportCustomRequest($request)` method to your `User` model (or whatever model you have configured to work with Passport).
     * The method should accept an `Illuminate\Http\Request` object.
     * You should authorize and retrieve user based on this request
