@@ -1,6 +1,6 @@
 ## Install
 
-Install with composer...  `composer require mikemclin/passport-custom-request-grant`
+Install with composer...  `composer require sim1barreto/passport-custom-request-grant`
 
 ### Versions
 
